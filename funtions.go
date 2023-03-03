@@ -10,14 +10,14 @@ func calculoSalario(hora int, salario int) {
 	fmt.Println(salarioTotal)
 }
 
-//Area cuadrado con un solo valor
+// Area cuadrado con un solo valor
 func calculoAreaCuadrado(lado int) int {
 
 	area := lado * lado
 	return area
 }
 
-//Funcion  que retorna 2 valores
+// Funcion  que retorna 2 valores
 func doubleReturn(a int) (c, d int) {
 	return a, a * 2
 }
